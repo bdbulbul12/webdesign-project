@@ -1,0 +1,537 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+}
+/*=========================Nav Bar==============================*/
+#nav_part{
+	width:100%;
+	position:relative;
+
+	
+}
+
+
+
+.my_nav{
+	width: 100%;
+	background:#47484D;
+	border-radius:0;
+	border:0;
+	padding-bottom:10px;
+	margin-bottom:0px;
+	position: fixed;
+	left: 0;
+	top: 0px;
+	z-index:99999999;
+}
+.my_nav .my_li li{
+	padding: 0 20px;
+}
+nav.my_nav .my_li a{
+	padding-left: 0;
+	padding-right: 0;
+	font-family:Roboto;
+	color:#ffffff ;
+	font-size:15px;
+	text-transform:uppercase;
+	position: relative;
+}
+nav.my_nav .my_li a:hover{
+	color:#e45842;
+	transition: all linear .5s;
+	display: inline-block;
+}
+.my_nav .my_li a:hover::before{
+	content:"";
+	width:100%;
+	height:2px;
+	bottom:9px;
+	background:#ff7d04;
+	position:absolute;
+	padding-left:5px;
+	transition: all linear .5s;
+	
+}
+.my_logo{
+	  
+	  top:-7px;
+	  position:absolute;
+	  
+}
+
+/*===================Banner_part=====================*/
+
+#main_banner_part{
+	width:100%;
+	background:url(../images/acb.jpg) no-repeat 0 0/100% 100%;
+	padding-top:280px;
+	padding-bottom:280px;
+}
+.banner_text_part{
+	
+}
+.banner_text p{
+	color:#fff;
+	font-size:25px;
+	text-align:center;
+}
+.banner_text h1{
+	text-align:center;
+	color:#fff;
+	font-family:Roboto;
+	font-size:35px;
+}
+.my_btn{
+	padding-top:40px;
+	
+}
+.my_work{
+	background:#E45844;
+	outline:0;
+	border:0 !important;
+	color:#fff;
+	padding: 12px 60px;
+	cursor:pointer;
+	
+	
+}
+.hire_me{
+		border:2px solid #47484D;
+		padding: 10px 60px;
+		
+}
+
+/*===================About_me_part=====================*/
+
+#about_me_part{
+	width:100%;
+	padding-top:60px;
+	padding-bottom:45px;
+}
+.abt_img img{
+	width:100%;
+    height: 100%;
+}
+.abt_text h2::after{
+	content:"";
+	
+	border-bottom:2px solid #E55940;
+
+}
+.my_heading{
+	background:#E55940 !important;
+}
+.my_title{
+	font-weight:bold !important;
+	color:#fff;
+	font-size:18px;
+	
+}
+.my_pannel_body{
+	background:#282D40 !important;
+	color:#fff !important;
+}
+.more_about_me{
+	padding-top:60px;
+}
+.my_cv{
+	background:#282D3E;
+	color:#fff;
+	padding: 8px 14px;
+	font-weight:bold;
+}
+/*Proress start*/
+.progress {
+  height: 25px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 25px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+.my_progress_bar h3{
+	color:#282D40 !important;
+}
+.my_color{
+	background:##d9534f !important;
+}
+
+/*===================My_progress_part=====================*/
+
+#my_progress_part{
+	background:url(../images/ban2.jpg) no-repeat 0 0/100% 100%;
+	padding-top:45px;
+	
+}
+.love i{
+	color:#DF593E;
+	font-size:18px;
+}
+.progress_text{
+	text-align:center;
+	color:#fff;
+}
+.happy_customres {
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.happy_customres i{
+	color:#fff;
+	font-size:80px;
+}
+.happy_customres h3{
+	font-size:50px;
+}
+.happy_customres p{
+	font-size:24px;
+}
+
+/*===================My_work_part=====================*/
+
+
+#my_work_part{
+	width:100%;
+	padding-top:45px;
+	
+}
+
+
+/*===================Contact_me_part=====================*/
+
+#contact_me{
+	width:100%;
+	background:#E55940;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.cntc_text h2{
+	color:#fff;
+}
+.cntc_text p{
+	color:#fff;
+}
+.cntc_btn{
+	padding-top:32px;
+	
+}
+.cntc_my_btn{
+	background: #282D40;
+	color: #fff;
+	padding: 10px 54px;
+	border: 0;
+	font-weight: bold;
+	font-size: 16px;
+	
+}
+.wrk_sl{
+	width:100%;
+}
+/*======================My Folio Part========== */
+#my_folio_part{
+	width:100%;
+	padding-top:45px;
+	padding-bottom:45px;
+}
+
+.web_design i{
+	border:1px solid #484848;
+	font-size: 38px;
+	border-radius: 50%;
+	width: 64px;
+	height: 60px;
+	text-align: center;
+	padding-top: 10px;
+}
+.web_design i:hover{
+	background:#E55940;
+	color:#fff;
+	border:0 ;
+	transform:rotate(360deg);
+	transition:all linear .5s;
+}
+.web_design h3{
+	color:#484848;
+}
+.web_design p{
+	color:#7A7A7A;
+	font-size:15px;
+}
+.design_part_2{
+	padding-top: 25px;
+}
+
+/*===================Subscribe_part=====================*/
+
+#subscribe_part{
+	width:100%;
+	background:url(../images/newban.jpg) no-repeat 0 0/100% 100%;
+}
+.sub_text h2{
+	padding-top:40px;
+	color:#F4F5F6;
+}
+.sub_text p{
+	color:#F4F5F6;
+}
+.sub_btn_part{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.box{
+	padding: 10px 127px;
+}
+.subs_btn{
+	
+	border:0;
+	background:#E45A3E;
+	padding: 10px 40px;
+	color:#fff;
+	font-size:16px;
+}
+
+/*===================Client_part=====================*/
+
+#client_part{
+    width: 100%;
+    background: url("../images/cssl2.png") no-repeat 0 0 /100% 100%;
+	
+}
+.slider_icon_text{
+    height: 300px;
+}
+.carousel-caption img{
+    
+    width: 80px;
+    height: 90px;
+	
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 30px;
+    color: #000000;
+    background: #ffffff;
+    cursor: pointer;
+}
+.carousel-caption h4{
+    font-family: roboto regular;
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+}
+.carousel-caption p{
+    color: #14679c;
+    font-family: roboto regular;
+    font-size: 14px;
+}
+.icon li{
+    
+	border: none;
+}
+.i_color_l{
+	background:#1D2442 !important;
+	font-size:15px !important;
+	padding-top:8px;
+}
+.i_color_r{
+	background:#E35741 !important;
+	font-size:15px !important;
+	padding-top:8px;
+}
+
+/*===================Team_part=====================*/
+
+#team_part{
+	
+	width:100%;
+	padding-top:80px;
+	padding-bottom:80px;
+	background-color:#F4F4F4;
+}
+
+.team_img_part{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	position:relative;
+	overflow:hidden;
+	
+}
+.t_name{
+	overflow:visible;
+}
+.team_img_part img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+}
+.overlay{
+	width:200px;
+	height:200px;
+	/*background:rgba(0,0,128,.4);*/
+	background: #E45A3E;
+	opacity:.7;
+	border-radius:50%;
+	visibility:hidden;
+	position:;
+	bottom:0;
+}
+.team_img_part:hover .overlay{
+	transform:translateY(-210px);
+	transition: all linear .5s;
+	visibility:visible;
+	z-index:9999;
+}
+.overlay ul{
+	list-style:none;
+}
+.overlay ul li{
+	float:left;
+	display:block;
+	
+}
+.overlay ul li a{
+	padding: 10px 17px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+	font-size:36px;
+}
+.t_name{
+	padding-left: 54px;
+}
+.qualify{
+	padding-left:67px;
+}
+
+/*===================Keep_in_touch_part=====================*/
+
+#keep_in_touch_part{
+	width:100%;
+}
+.touch_text{
+	padding-bottom:80px;
+}
+.touch_text h2{
+	padding-top:40px;
+	color:#0C0C0C;
+}
+.visit_me{
+	
+}
+.visit_me i{
+	color:#fff;
+	background:#282D40;
+	font-size:40px;
+	border-radius: 50%;
+	width: 103px;
+	height: 99px;
+	text-align: center;
+	padding-top: 30px;
+}
+.visit_me i:hover{
+	background:#E55940;
+	transition:all linear .5s;
+	cursor:pointer;
+}
+.visit_me h3{
+	color:#282D40;
+	
+}
+.visit_me p{
+	color:#8C8C8C;
+}
+.cnt_or{
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.follow_me{
+	padding-bottom:20px;
+}
+.social_bar{
+	padding-bottom:40px;
+}
+.social_bar i{
+	font-size: 20px;
+	background:#272E40;
+	color:#fff;
+	padding: 10px 14px;
+}
+.social_bar i:hover{
+	background:#E45944;
+	cursor:pointer;
+}
+
+/*===================Footer_part=====================*/
+
+#footer_part{
+	width:100%;
+	padding-top: 20px;
+	background:#191A1F;
+}
+.footer_text{
+
+}
+.footer_text p{
+	color:#fff;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+.footer_text span{
+	color:#DF5D3B;
+	font-weight:bold;
+}
+
+	.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #239890;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+
+/*.......Thanks For Visiting My CSS Code....*/

@@ -1,0 +1,271 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1170px) {
+/*navigation*/
+#nav_part{
+	
+}
+.my_nav .my_li li{
+	padding: 0 15px !important;
+}
+
+
+#main_banner_part{}
+.banner_text p{
+	
+	
+}
+.abt_text h2{
+	text-align:center !important;
+}
+.love{
+	text-align:center !important;
+}
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+/*navigation*/
+#nav_part{}
+.my_nav .my_li li{
+	padding: 10px 10px !important;
+}
+#main_banner_part{}
+}
+.dg-wrapper{
+	
+	perspective: 350px !important;
+}
+.dg-wrapper a{
+	
+}
+.dg-wrapper a img{
+	display: block !important;
+	padding: 16px 0px 0px 1px !important;
+	
+}
+.dg-container{
+	width: 100% !important;
+	
+	position: relative !important;
+}
+.dg-wrapper a{
+	
+	left: 12px !important;
+	top: 0 !important;
+}
+.dg-container nav{
+	bottom: 27px !important;
+}
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+/*navigation*/
+#nav_part{}
+my_nav .my_li a{
+	padding-left: 0;
+	padding-right: 0;
+	font-family:Roboto;
+	color:#ffffff ;
+	font-size:10px !important;
+	text-transform:uppercase;
+	position: relative !important;
+}
+.my_nav .my_li a:hover::before{
+	content:"";
+	width:100%;
+	display: inline-block;
+
+	
+}
+#main_banner_part{}
+.abt_text h2{
+	font-size:18px !important;
+}
+.abt_text p{
+	
+}
+.my_cv{
+	
+}
+.happy_customres {
+	padding-top:20px !important;
+	padding-bottom:30px !important;
+}
+.happy_customres h3{
+	font-size:30px !important;
+}
+.happy_customres i{
+	font-size:50px !important;
+}
+.i_color_r{
+	padding-top: 0px !important;
+}
+.i_color_l{
+	padding-top: 0px !important;
+}
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+/*navigation*/
+#nav_part{}
+/*main_banner_part*/
+#main_banner_part{
+	width: 100%;
+	padding-top: 60px ;
+	padding-bottom: 100px;
+}
+.banner_text p{
+	font-size: 25px ;
+}
+.banner_text h1{
+	font-size: 15px ;
+}
+.my_pannel_body{
+	
+}
+.cntc_my_btn{
+	padding: 10px 49px !important;
+}
+.cntc_text h2{
+	
+}
+.cntc_text p{
+	
+}
+.dg-wrapper{
+	width:430px !important;
+	perspective: 100px !important;
+}
+.dg-wrapper a{
+	height: 150px !important;
+	width: 230px !important;
+}
+.dg-wrapper a img{
+	display: block !important;
+	padding: 16px 0px 0px 1px !important;
+	width: 300px ;
+}
+.dg-container{
+	width: 100% !important;
+	height: 265px !important;
+	position: relative !important;
+}
+.dg-wrapper a{
+	height: 162px !important;
+	left: 12px !important;
+	top: 0 !important;
+}
+.dg-container nav{
+	bottom: 27px !important;
+}
+.box{
+	padding: 12px 50px !important;
+	margin-bottom:10px !important;
+}
+.social_bar i{
+	font-size: 7px;
+	padding: 10px 14px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+#nav_part{
+	
+}
+p{
+	font-size:10px !important;
+}
+#main_banner_part{
+	display:none;
+}
+.banner_text p{
+	font-size: 25px;
+}
+.banner_text h1{
+	font-size: 15px;
+}
+
+.dg-wrapper{
+	width:280px !important;
+	perspective: 70px !important;
+}
+.dg-wrapper a{
+	height: 150px !important;
+	width: 200px !important;
+}
+.dg-wrapper a img{
+	display: block;
+	padding: 16px 0px 0px 1px;
+	width: 150px ;
+}
+.dg-container{
+	width: 100% !important;
+	height: 265px;
+	position: relative;
+}
+.dg-wrapper a{
+	height: 162px;
+	left: 12px;
+	top: 0;
+}
+.web_design h3{
+	font-size:16px !important;
+}
+.web_design p{
+	font-size:10px !important;
+}
+.dg-container nav{
+	bottom: 27px;
+}
+.overlay ul li a{
+	padding: 30px 27px !important;
+	text-align: center;
+	line-height: 204px !important;
+	color: #fff;
+	font-size:10px !important;
+}
+.cntc_my_btn{
+	padding: 10px 36px;
+}
+.box {
+    padding: 10px 60px !important;
+	}
+.visit_me i{
+	font-size:20px !important;
+	border-radius: 50%;
+	width: 50px  !important;
+	height: 50px !important;
+	
+	padding-top: 13px !important;
+}
+.visit_me h3{
+	font-size:16px !important;
+}
+.visit_me p{
+	font-size:10px !important;
+}
+.social_bar i{
+	font-size: 10px !important;;
+	
+}
+}
+
